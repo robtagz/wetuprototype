@@ -1,0 +1,169 @@
+
+table{
+	align : center;
+	  border-color: #4e9a06;
+	  border-width: 3px;
+	
+	
+}
+table.altrowstable {
+  align : center;
+  font-family: verdana,arial,sans-serif;
+  font-size:9px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #ce5c00;
+  border-collapse: collapse;
+}
+table.altrowstable th {
+  border-width: 1px;
+  padding: 6px;
+  border-style: solid;
+  border-color: #000000;
+  background-color:#f57900 ;
+}
+table.altrowstable td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #f57900;
+  height:10px;
+  background-color:#eeeeec ;
+    font-size:12px;
+  
+}
+.oddrowcolor{
+  background-color:#d4e3e5;
+}
+.evenrowcolor{
+  background-color:#fce94f;
+}
+.inputcart{
+	
+width: 10px;
+height:7px;	
+background-color:#fce94f;
+color:#000;
+    	
+	
+}
+
+.containerentry{
+	border-style: solid;
+	border color:#a9c6c9  ;
+	width: 250px;
+	height:400px;	
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+
+
+ /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
